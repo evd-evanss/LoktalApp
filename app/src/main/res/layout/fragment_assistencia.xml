@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgapps"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_marginTop="32dp"
+                    android:id="@+id/my_relative_layout"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtDashboard"
+                            android:text="Assistência Técnica"
+                            android:textColor="#fff"
+                            android:textSize="24sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="50dp" />
+
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="150dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:text="Endereço"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:gravity="center"
+                    android:text="Av. Trona Constanzo,156\nButantã - São Paulo - SP\nCEP:05516-020"
+                    android:textColor="@color/design_default_color_on_secondary"
+                    android:textSize="18sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <com.google.android.gms.maps.MapView
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/google_maps"
+                    android:layout_width="match_parent"
+                    android:layout_height="229dp"
+                    android:apiKey="@string/google_maps_key"
+                    android:clickable="true">
+
+                </com.google.android.gms.maps.MapView>
+
+        </LinearLayout>
+
+
+
+</ScrollView>

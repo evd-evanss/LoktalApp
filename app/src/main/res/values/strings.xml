@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">LoktalApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_at">Assistência Técnica</string>
+    <string name="title_products">Produtos</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wavevac">
+- Exclusivo sistema DMA (Dual Mode Activation); Permite ativação remota automática através do Bisturi Wavetronic 6000 Touch ou manual\n
+- Dupla filtragem (H.E.P.A. e carvão ativado) com 99,99% de eficiência e máxima segurança contra vírus como o “HPV”\n
+- Espéculo isolado desenvolvido para captação de vapores\n
+- Máxima proteção para o cirurgião e sua equipe\n
+- Baixo custo e mínimo desperdício\n
+- Ampla visibilidade do campo cirúrgico\n
+    </string>
+    <string name="fraxx">
+O sistema HF FRAXX com exclusivo controle de disparo fracionado randômico “SmartShot” utiliza a tecnologia de Rádiofrequência RF, que distribui energia subablativa de forma precisa, com mínimo dano na Epiderme e significativo impacto na Derme. Com esta característica única de distribuição de energia randômica, chamada “SmartShot” o MEGAPULSE HF FRAXX proporciona um efeito perfeito, conhecido como tempo de relaxamento, o que mantém o tecido adjacente aos micropontos vaporizados, completamente intacto e saudável para a formação de Neocolagênese.
+Seu efeito é a promoção da regeneração na derme ao nível da interface papilar com reticular, através da estimulação de fibroblastos com consequente síntese de colágenos e fibras elásticas, bem como regeneração epidérmica dada pela migração de queratinócitos.
+Rejuvenescimento e efeito Tightening: O rejuvenescimento da pele, se da pela contração do colágeno e renovação do mesmo.\n
+Não forma crostas gigantes: Ao contrário da dermo abrasão e peeling profundos, a Radio frequência micro fracionada gera micro crostas, que vão deixando a área tratada em média entre cinco a sete dias após o tratamento
+Mínimo Down Time (tempo de recuperação): A recuperação é rápida, permitindo que o paciente volte a suas atividades normais diárias quase que imediatamente.\n
+\nTratamentos\n
+- Flacidez da pele\n
+- Rugas\n
+- Olheiras\n
+- Manchas\n
+- Cicatrizes de Acne\n
+- Cicatrizes Hipertróficas\n
+- Rejuvenescimento Facial\n
+- Rejuvenescimento Corporal\n
+- Estrias\n
+- Etc.\n
+\nVantagens\n
+- Tratamento personalizado: De acordo com cada tipo de tecido permite diferentes ajustes de profundidade. Com uma seleção precisa do nível de energia.\n
+- Baixos riscos, rápida recuperação, mínimos efeitos colaterais: Com pequenas  restrições  de  fototipo,  a possibilidade de hiper pigmentação é baixa se comparada ao tratamento com laser e tempo de recuperação mínimo.\n
+- Design moderno, fácil e amistoso de utilizar, proporcionado pela tecnologia “Touch Screen”.\n
+- Leve e fácil de transportar
+    </string>
+    <string name="wavetronic">
+Wavetronic 6000 Touch é um bisturi de alta frequência que produz um efeito no tecido biológico similar a tecnologia laser, suave, sem trauma, de corte e coagulação precisos dos tecidos, através da energia electromagnética na frequência de mega hertz (MHz).
+O calor lateral gerado nos tecidos adjacentes, na faixa de megahertz é muito menor que o gerado na faixa de quilohertz (kHz) baixa frequência.
+Os tecidos adjacentes não sofrem danos termais e as excisões resultam em peças com qualidade para exames histológicos, como os realizados com a lâmina fria.
+O uso da alta frequência proporciona excelente qualidade de incisão com mínimo sangramento, rápida cicatrização, diminuição das cicatrizes hipertróficas, pós operatório com mínimo desconforto, e o máximo em resultados estéticos.\n
+\nVantagens\n
+- O melhor custo benefício\n
+- O máximo da alta frequência 4MHz único no Brasil\n
+- Mais eficiência comparado com os antigos bisturis elétricos (baixa frequência)\n
+- Único com até 3 anos de garantia\n
+- Grande variedade de eletrodos para múltiplas especialidades\n
+- Quando conectado ao Megapulse HF Fraxx e ou sistema Aspirador de vapores Wavevac Dual, forma um conjunto compacto e de fácil transporte\n
+- Microprocessado com memoria independente para cada uma das sete funções
+    </string>
+
+    <string name="registrar">Registrar</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Digite no mínimo 6 caracteres!</string>
+    <string name="auth_failed">Falha na autenticação, verifique seu email e senha e entre novamente</string>
+    <string name="change_email">Mudar Email</string>
+    <string name="change_password">Mudar Senha</string>
+    <string name="send_password_reset_email">Enviar email de redefinição de senha</string>
+    <string name="remove_user">Remover usuário</string>
+    <string name="new_pass">Nova Senha</string>
+    <string name="title_activity_profile">Loktal App</string>
+    <string name="title_activity_login">Entrar</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_name">Nome Completo</string>
+    <string name="btn_login">Entrar</string>
+    <string name="prompt_password">Por favor, insira sua senha</string>
+    <string name="btn_link_to_register">Não sou Registrado</string>
+    <string name="btn_link_to_login">Já sou Registrado!</string>
+    <string name="title_activity_reset_password">Alterar Senha</string>
+    <string name="btn_forgot_password">Esqueceu a senha?</string>
+    <string name="btn_reset_password">Resetar Senha</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">Noovo Email</string>
+    <string name="btn_change">Mudar</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_remove">Remover</string>
+    <string name="btn_sign_out">Sair</string>
+    <string name="lbl_forgot_password">Esqueceu a senha?</string>
+    <string name="forgot_password_msg">Precisamos do seu e-mail registrado para as instruções de redefinição de senha.</string>
+    <string name="email_id">Email ID</string>
+    <string name="google_maps_key">AIzaSyA6VQYgKdh4lNQJbLlqmJwLj1L6wK-DurM</string>
+    <string name="retornar_a_tela_inicial">Retornar a Tela Inicial</string>
+    <string name="modelo">Modelo</string>
+    <string name="serial">serial:</string>
+    <string name="nf">nf:</string>
+    <string name="data_de_compra">data de compra:</string>
+    <string name="garantia">Garantia:</string>
+    <string name="man_preventiva">Man Preventiva:</string>
+    <string name="solicitar_manuten_o">Solicitar Manutenção</string>
+    <string name="book_title">Book Title</string>
+    <string name="manuais">Manuais</string>
+    <string name="meus_equipamentos">Meus Equipamentos</string>
+    <string name="assist_ncia">Assistência</string>
+    <string name="novo_equipamento">Novo Equipamento</string>
+    <string name="inserir_n_da_nota_fiscal">Inserir nº da nota fiscal</string>
+
+</resources>

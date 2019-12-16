@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgapps"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <RelativeLayout
+            android:layout_marginTop="32dp"
+            android:id="@+id/my_relative_layout"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:id="@+id/txtDashboard"
+                android:text="Home"
+                android:textColor="#fff"
+                android:textSize="24sp"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+
+        </RelativeLayout>
+        
+        <GridLayout
+            android:columnCount="2"
+            android:rowCount="4"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/treinamentos"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_height="120dp"
+                android:layout_width="100dp">
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:src="@drawable/bookmark"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+                    <TextView
+
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:text="Treinamentos"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/youtube"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_height="120dp"
+                android:layout_width="100dp">
+
+                <LinearLayout
+                    android:weightSum="1"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:src="@drawable/ic_youtube"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+                    <TextView
+
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:text="Nosso Canal "
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/produtos"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_height="120dp"
+                android:layout_width="100dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:src="@drawable/ic_produtos"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+                    <TextView
+
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:text="Produtos"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/contatos"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_height="120dp"
+                android:layout_width="100dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:src="@drawable/ic_telefone"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:text="Contato"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/id_profile"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_height="120dp"
+                android:layout_width="100dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:src="@drawable/ic_medico"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp" />
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:text="Meus Dados"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/id_logout"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_height="120dp"
+                android:layout_width="100dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="60dp"
+                        android:layout_height="52dp"
+                        android:src="@drawable/ic_logout" />
+                    <TextView
+                        android:layout_marginTop="12dp"
+                        android:textColor="#6f6f6f"
+                        android:text="Sair"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+        
+    </LinearLayout>
+
+
+</ScrollView>

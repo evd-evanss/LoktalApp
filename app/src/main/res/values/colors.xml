@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF3E53B3</color>
+    <color name="colorPrimaryDark">#3C51AC</color>
+    <color name="colorAccent">#EF3832</color>
+
+    <color name="colorRed">#DF1A1A</color>
+    <color name="colod">#F55959</color>
+    <color name="colorGreen">#41C352</color>
+    <color name="tab_disable">#979797</color>
+    <color name="tab_enable">#FFFFFF</color>
+    <color name="tab_checked">#FFEB3B</color>
+    <color name="tab_checkedq">#FFEB3B</color>
+    <color name="tab_unchecked">#FFFFFF</color>
+
+    <color name="twitter_blue">#1da1f2</color>
+    <color name="deep_gray">#EBEBEB</color>
+    <color name="tab_selected">@color/twitter_blue</color>
+    <color name="colorOrange">#FFC109</color>
+    <drawable name="colorGradiente">@drawable/gradiente</drawable>
+</resources>

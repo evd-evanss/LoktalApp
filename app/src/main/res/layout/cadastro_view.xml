@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/novo_equipamento"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/my_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:pointerIcon="arrow"
+            tools:targetApi="n">
+
+        </Spinner>
+
+        <EditText
+            android:id="@+id/id_serial"
+            android:textColor="#2d2d2d"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Inserir nº serial. Ex: EWWI-WW"
+            android:inputType="textCapCharacters" />
+        <EditText
+            android:id="@+id/id_nf"
+            android:textColor="#2d2d2d"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint="@string/inserir_n_da_nota_fiscal"/>
+        <EditText
+            android:id="@+id/id_data"
+            android:textColor="#2d2d2d"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:maxLength="10"
+            android:hint="Inserir a data de compra. Ex: 20/03/2012"/>
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimary"
+            android:text="Limpar Campos"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:layout_weight="0.5"
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salvar"/>
+        <Button
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:layout_weight="0.5"
+            android:id="@+id/btn_cancell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar" />
+    </LinearLayout>
+</LinearLayout>

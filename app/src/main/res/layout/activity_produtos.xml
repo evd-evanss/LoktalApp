@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="center"
+    tools:context="com.sayhitoiot.loktalapp.Activityes.Produtos.ProdutosActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_produtos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        tools:listitem="@layout/recycler_view_item"
+        tools:spanCount="2"
+        android:layout_marginHorizontal="50dp"
+        android:foregroundGravity="center_horizontal"
+        tools:layoutManager="GridLayoutManager" />
+
+</LinearLayout>

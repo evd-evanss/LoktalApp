@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_gravity="center_vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:text="Nome: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    android:id="@+id/id_nome"
+    android:hint="Insira o seu nome"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Razão Social: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/id_rs"
+        android:hint="Razão Social ou Nome Fantasia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="CPF/CNPJ: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/id_doc"
+        android:hint="Ex: XXX.XXX.XXX-XX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Profissão: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/id_prof"
+        android:hint="Ex: Dermatologista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Endereço: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/id_end"
+        android:hint="Ex: Av Trona Constanzo, 156"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Cidade: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/id_cidade"
+        android:hint="Ex: São Paulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Estado: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/id_estado"
+        android:hint="Ex: SP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Cep: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/id_cep"
+        android:hint="Ex: 05516-020"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Telefone: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/id_telefone"
+        android:hint="Ex: (DDD)1234-5678"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Celular: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/id_celular"
+        android:hint="Ex:(DDD)98765-4321"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="E-mail: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:id="@+id/id_email"
+        android:hint="Ex:vendas@loktal.com.br"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:background="#ffffff"
+        android:text="Salvar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+</LinearLayout>
+
+</ScrollView>
